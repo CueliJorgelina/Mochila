@@ -1,0 +1,18 @@
+git init: Iniciar un repositorio.
+git config user.name “mi usuario”: Indicar usuario.
+git config user.email “miCorreo@email.com”: Indicar mail.
+git remote add origin "url del repositorio": Apunta al repositorio remoto.
+git add . : Agregar todos los archivos.
+git commit ‐m "comentario": Comitear los cambios.
+git push origin main: Enviar los cambio al repositorio.
+git status: Seguimiento del estados de lso archivos.
+git log: Ver log de commits.
+git log ‐‐oneline: Ver log de commits en una linea.
+git clone "url del proyecto": Clonar repositorio existente.
+git pull origin main: Actualizar repositorio local.
+git branch: Enumerar ramas del repositorio.
+git branch <branch>: Crear nueva rama.
+git branch ‐d <branch>: Eliminar rama (No posible si hay cambio no fusionados con main).
+git branch ‐D <branch>: Eliminar rama forzadamente.
+git checkout nombre_rama: Moverse a otra rama.
+git merge: Realizar merge de rama.
